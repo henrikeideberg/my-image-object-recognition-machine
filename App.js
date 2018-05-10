@@ -423,7 +423,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">My image object recognition machine</h1>
           <a href="index.html">
-            <img src="/objects/icons/fi-home.svg" alt="navigate home" height="20" width="20" />
+            <img src="http://henrik.eideberg.se/projects/machinelearning/my-image-object-recognition-machine/objects/icons/fi-home.svg" alt="navigate home" height="20" width="20" />
           </a>
         </header>
         <p className="App-intro">

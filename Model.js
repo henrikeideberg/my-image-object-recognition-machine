@@ -6,7 +6,7 @@ export class Model {
     this.data = null;
     this.history = [];
     this.predictionResult = null;
-    this.imageSize = 300;
+    this.imageSize = 100;
   }
   
   /*
@@ -23,7 +23,7 @@ export class Model {
     this.data = null;
     this.history = [];
     this.predictionResult = null;
-    this.imageSize = 300;
+    this.imageSize = 100;
     //instantiate our Sequential model with tf.sequential:
     this.machine = tf.sequential();
 

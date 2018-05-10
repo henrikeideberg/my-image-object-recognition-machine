@@ -6,7 +6,7 @@ export class ImageData {
     this.shuffledTrainIndex = 0;//index to keep track of where we are in trainIndices
     this.shuffledTestIndex = 0;//index to keep track of where we are in testIndices
     this.numberOfElementsInEachCategory = 70;
-    this.imageSize = 300;
+    this.imageSize = 100;
     this.oneChannelDataSize = this.imageSize*this.imageSize;//90000 in case of 300*300
     this.numOfClasses = 0;
     this.ratio = 0;//really needed as a class variable?
